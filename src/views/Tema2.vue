@@ -5,7 +5,17 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Cálculo de costos de #[i software]
+
+    .row.mb-5
+      p Veamos el siguiente video para entrar en contexto con el siguiente tema: cálculo de costos de #[i software] 
+
+    .row.mb-5(data-aos="fade-zoom")
+      figure
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+
 
 </template>
 
