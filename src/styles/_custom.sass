@@ -33,13 +33,17 @@
 .tarjeta--azul2
   background-color: #0B5999
   width: 270px
+  @media (max-width: 500px)
+    width: 250px
 
 .tarjeta-avatar
   width: 270px
   height: 270px
   @media (max-width: 500px)
     position: relative
-    left: 6%
+    width: 250px
+    height: 280px
+    left: 2%
 
 //// background fondo ------------------
 
@@ -158,9 +162,9 @@
 
 .bloque-texto-g2__texto 
   position: relative
-  width: 65%
+  width: 60%
   background-color: rgba(255, 255, 255, 0.95)
-  left: 3%
+  left: 0%
   @media (max-width: 500px)
     width: 100%
     left: 0%
@@ -204,9 +208,9 @@
   background-color: #0B5999
 
 .tarjeta--azul4
-  background-color: #0B5999
+  background-color: #0D4AAD
   position: relative
-  top: -19%
+  top: -10%
   left: 9%
   z-index: 0
   @media (max-width: 500px)
@@ -219,9 +223,9 @@
   position: relative
   max-width: 300%
   width: 250%
-  margin-top: 3%
+  margin-top: -3%
   right: 45%
-  z-index: 1
+  z-index: 0
   @media (max-width: 500px)
     width: 65%
     margin-top: 0%
@@ -257,7 +261,7 @@
   margin-left: -10%
   padding-left: 7%
   @media (max-width: 500px)
-    height: 320px
+    height: 370px
 
 .tarjeta-avatar-b__img
   max-width: 35%
@@ -273,4 +277,15 @@
     background-color: #21CBAE
     border-color: #21CBAE
     opacity: 1
+
+//custom botones slyder en movil
+@media screen and ( max-width: 500px )
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    background-color: #21CBAE
+    border: 1px solid #21CBAE
+    position: absolute
+    margin-top: 6%
+    width: 30px
+    height: 30px
+//----------------------------------------------
 

@@ -90,7 +90,7 @@
           figure
             img(src='@/assets/curso/temas/tema3/img9-1.svg', alt='').img9-1-tm2    
         .col-lg-9.mt-5
-          .tarjeta--azul4.p-4
+          .tarjeta--azul4.p-3
             p.texto-blanco Una historia de usuario es una definición breve, informal y en lenguaje sencillo de lo que un usuario quiere hacer dentro de un producto de #[i software] para conseguir algo que le resulte valioso.
             p.texto-blanco Las historiaEs necesario resaltar que el proceso de estimación es impredecible dado que se intenta medir elementos como el esfuerzo, tamaño y costes de un proyecto que aún no ha iniciado y del cual es muy probable que se tenga poca información. Es muy importante que el representante de la gestión del proyecto tenga buen conocimiento en el tema, que tenga en cuenta trabajos pasados para no repetir los mismos problemas anteriores y sea una persona con características que le permitan prever posibles riesgos. Además, hay que tener presente que la estimación en horas tempranas es de mayor riesgo, por lo que hay que realizar constantemente validaciones y ajustes a las estimaciones ya existentes. s de usuario suelen seguir el patrón rol – función - beneficio:
 
@@ -223,13 +223,14 @@
               i.fas.fa-circle.color-vineta
               | Determinar la porción de Puntos Objeto, sumando todos los pesos de las instancias de los tipos de objetos especificados.
 
-    .row.mb-5
-      .bloque-texto-g.color-primario.p-5
-        .bloque-texto-g2__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img14.svg')})`}"
-        )
-        .bloque-texto-g2__texto.p-4
-          p.mb-0 Se debe resaltar la característica de que los casos de uso no tienen un tamaño definido, por lo que un método basado en Casos de Uso debería tener en cuenta escenarios del mismo o el número de transacciones para determinar su peso. A medida que se van concluyendo las especificaciones de los Casos de Uso, se pueden ir depurando las estimaciones de los puntos de función.
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bloque-texto-g.color-primario.p-4
+          .bloque-texto-g2__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img14.svg')})`}"
+          )
+          .bloque-texto-g2__texto.p-4
+            p.mb-0 Se debe resaltar la característica de que los casos de uso no tienen un tamaño definido, por lo que un método basado en Casos de Uso debería tener en cuenta escenarios del mismo o el número de transacciones para determinar su peso. A medida que se van concluyendo las especificaciones de los Casos de Uso, se pueden ir depurando las estimaciones de los puntos de función.
 
     separador
 
