@@ -8,7 +8,7 @@
       h1 Técnicas de estimación de proyectos de #[i software]
 
     .row.mb-5
-      p El primer elemento de un proyecto de #[i software] es la planificación. En esta etapa del proceso, una de las tareas con mayor valor es la estimación, tanto de recursos, esfuerzos, costes y tiempos para el buen desarrollo del proyecto.  
+      p La planificación es el primer elemento de un proyecto de #[i software] y la estimación de recursos, esfuerzos, costos y tiempos es una de las tareas más importantes en esta etapa para garantizar el buen desarrollo del proyecto.
 
     .row.mb-5
       .bloque-texto-g.color-secundario.p-5
@@ -23,7 +23,7 @@
         SlyderA(tipo="b")
           .row
             .col-lg-7
-              p Dentro del entorno de un proyecto de #[i software] existen diferentes factores a estimar; por ejemplo: el cálculo del tiempo de ejecución de cada una de las actividades a realizar dentro del proyecto (análisis, gestión, desarrollo, pruebas, etc.) o del proyecto en general, así como las validaciones de los casos de prueba por los riesgos, casos de uso, el esfuerzo a realizar, entre distintos índices estimables. 
+              p En el contexto de un proyecto de #[i software], hay varios factores que deben ser estimados, como el tiempo de ejecución de cada actividad en el proyecto (análisis, gestión, desarrollo, pruebas, etc.) o del proyecto en su conjunto, así como la verificación de los casos de prueba por riesgos, casos de uso, esfuerzo requerido y otros índices estimables.
 
             .col-lg-5
               figure
@@ -31,7 +31,7 @@
 
           .row
             .col-lg-7
-              p Cualquier esfuerzo por estimar los tiempos, costos o recursos a largo plazo implica estimaciones. Cuando se realiza la planificación y gestión de proyectos, lo primero que se hace es la estimación del tamaño del #[i software] para luego calcular el esfuerzo necesario y los posibles cronogramas. 
+              p En cualquier esfuerzo para estimar los tiempos, costos o recursos a largo plazo, es necesario realizar estimaciones. Este proceso es especialmente importante en la planificación y gestión de proyectos, ya que el primer paso suele ser la estimación del tamaño del #[i software.] Con esta información se pueden calcular el esfuerzo necesario y los posibles cronogramas para completar el proyecto de manera satisfactoria.
 
             .col-lg-5
               figure
@@ -39,7 +39,7 @@
 
           .row
             .col-lg-7
-              p La estimación de costos es una de las primeras tareas que se hacen en el proyecto, casi siempre, después de señalar los requerimientos; no obstante, se sigue realizando con regularidad a lo largo de la ejecución del proyecto con el objetivo de adaptar la precisión en la estimación previa. 
+              p La tarea de estimar los costos suele ser una de las primeras cosas que se hacen en un proyecto, a menudo después de definir los requisitos. Sin embargo, esta tarea se suele realizar de forma regular a lo largo de la ejecución del proyecto con el fin de ajustar la precisión de la estimación inicial.
 
             .col-lg-5
               figure
@@ -47,7 +47,7 @@
 
           .row
             .col-lg-7
-              p La estimación de por sí es difícil, una forma adecuada para acercarse puede ser desarrollando de manera incremental los requerimientos, detallando las estimaciones a medida que se va encontrando más información. La estimación temprana puede ser riesgosa, dado que la cantidad de información que se tiene al principio del sistema, por lo general, es muy limitada, lo que dificulta el proceso. 
+              p En otras palabras, estimar es difícil, y una forma adecuada de acercarse a esto puede ser desarrollando los requerimientos de manera incremental, detallando las estimaciones a medida que se obtiene más información. Estimar temprano puede ser peligroso, ya que al comienzo de un sistema, la cantidad de información que se tiene suele ser muy limitada, lo que dificulta el proceso.
 
             .col-lg-5
               figure
@@ -55,14 +55,14 @@
 
           .row
             .col-lg-7
-              p Resulta útil tener muy claro los usos principales de la estimación de costos en la administración de proyectos:
+              p La estimación de costos es muy útil en la administración de proyectos porque:
               ul.lista-ul--color
                 li 
                   i.fas.fa-circle.color-vineta
-                  | En la etapa de planteamiento posibilita indicar la cantidad de personas que se requieren para la ejecución del proyecto y establecer cronogramas correctos.
+                  | En la etapa de planteamiento, ayuda a indicar cuántas personas son necesarias para llevar a cabo el proyecto y a establecer un cronograma adecuado.
                 li 
                   i.fas.fa-circle.color-vineta
-                  | Durante el desarrollo del proyecto permite conocer su alcance y calcular si el proyecto se está desarrollando según lo indicado en el cronograma. De lo contrario, se deberá crear un plan de acción a tiempo. Para lo anterior es necesario contar con métricas que permitan calcular el nivel de cumplimiento del desarrollo del #[i software]. 
+                  p Durante el desarrollo del proyecto, permite conocer el alcance del proyecto y calcular si se está progresando de acuerdo al cronograma previsto. Si no es así, es necesario crear un plan de acción a tiempo. Para hacer esto, es necesario contar con métricas que permitan medir el nivel de cumplimiento del desarrollo del #[i software.]
 
             .col-lg-5
               figure
@@ -70,7 +70,7 @@
 
           .row
             .col-lg-7
-              p En el ámbito de la ingeniería de #[i software], la estimación de costos se trata de validar el alcance del #[i software], así como la cantidad de personas que se necesitará para el desarrollo del producto. Hay una notoria relación entre calidad, costo y cronograma. Estos tres aspectos están estrechamente vinculados entre sí. 
+              p En el campo de la ingeniería de #[i software], la estimación de costos se refiere a determinar el alcance del #[i software] y la cantidad de personas necesarias para desarrollar el producto. Existe una fuerte conexión entre calidad, costo y cronograma, ya que estos tres aspectos están estrechamente relacionados entre sí.
 
             .col-lg-5
               figure
@@ -78,7 +78,7 @@
 
           .row
             .col-lg-7
-              p Lo anterior señala la complejidad al incrementar la calidad de un #[i software] sin aumentar el costo y/o el cronograma del #[i software] a ejecutar. De esta manera, el cronograma de desarrollo no puede disminuir drásticamente sin afectar la calidad del producto y/o aumentar el costo de desarrollo. Los modelos de estimación juegan un papel importante ya que permiten equilibrar estos tres factores. 
+              p La complejidad de mejorar la calidad de un software sin aumentar su costo y/o su plazo de ejecución se señala en lo anterior. Como resultado, el plazo de desarrollo no puede reducirse significativamente sin afectar la calidad del producto y/o aumentar el costo de desarrollo. Los modelos de estimación tienen un papel importante en este sentido, ya que permiten equilibrar estos tres factores.
 
             .col-lg-5
               figure
@@ -92,7 +92,7 @@
         .col-lg-9.mt-5
           .tarjeta--azul4.p-3
             p.texto-blanco Una historia de usuario es una definición breve, informal y en lenguaje sencillo de lo que un usuario quiere hacer dentro de un producto de #[i software] para conseguir algo que le resulte valioso.
-            p.texto-blanco Las historiaEs necesario resaltar que el proceso de estimación es impredecible dado que se intenta medir elementos como el esfuerzo, tamaño y costes de un proyecto que aún no ha iniciado y del cual es muy probable que se tenga poca información. Es muy importante que el representante de la gestión del proyecto tenga buen conocimiento en el tema, que tenga en cuenta trabajos pasados para no repetir los mismos problemas anteriores y sea una persona con características que le permitan prever posibles riesgos. Además, hay que tener presente que la estimación en horas tempranas es de mayor riesgo, por lo que hay que realizar constantemente validaciones y ajustes a las estimaciones ya existentes. s de usuario suelen seguir el patrón rol – función - beneficio:
+            p.texto-blanco Es necesario resaltar que el proceso de estimación es impredecible dado que se intenta medir elementos como el esfuerzo, tamaño y costes de un proyecto que aún no ha iniciado y del cual es muy probable que se tenga poca información. Es muy importante que el representante de la gestión del proyecto tenga buen conocimiento en el tema, que tenga en cuenta trabajos pasados para no repetir los mismos problemas anteriores y sea una persona con características que le permitan prever posibles riesgos. Además, hay que tener presente que la estimación en horas tempranas es de mayor riesgo, por lo que hay que realizar constantemente validaciones y ajustes a las estimaciones ya existentes. s de usuario suelen seguir el patrón rol – función - beneficio:
 
     separador
 
@@ -101,7 +101,7 @@
       h2 3.1  Técnicas de estimación del tamaño del #[i software] 
 
     .row.mb-5
-      p Existen varias técnicas para medir el tamaño del #[i software], entre las cuales podemos encontrar:
+      p Hay diferentes métodos para evaluar el tamaño del #[i software,] como por ejemplo:
 
     .titulo-segundo.color-acento-botones
       h3 Medición de líneas de código fuente producidas (SLOC)

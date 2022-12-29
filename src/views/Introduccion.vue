@@ -16,7 +16,7 @@
 
       .col-lg-8
         p Bienvenido a una nueva experiencia de aprendizaje, en este componente se tiene como objetivo encontrar un punto de equilibrio entre la oferta del cliente, el pago al equipo de trabajo y las ganancias para la empresa, en el marco del desarrollo de un #[i software] web. 
-        p Este componente tendrá un carácter teórico, en el cual tendremos la oportunidad de explorar las normativas y legislaciones en un proyecto de #[i software], así mismo, se podrá realizar una buena estimación en el equipo de desarrollo y el talento necesario para el desarrollo y la manera óptima de calcular el costo de un proyecto, diseñando un plan de ventas y de monetización en un proyecto de #[i software].  
+        p En resumen, este componente formativo tendrá un enfoque teórico y se enfocará en explorar las normativas y legislaciones relevantes para el proyecto de #[i software.] También se discutirá cómo realizar una buena estimación del equipo y del talento necesarios para el desarrollo, así como cómo calcular de manera óptima el costo del proyecto y cómo diseñar un plan de ventas y monetización adecuado para el proyecto de #[i software.]
 
     .row.mb-5
       p Adicionalmente, se busca desarrollar en el aprendiz las principales habilidades para identificar y aplicar los conceptos básicos que aquí se exponen. Veamos a continuación el siguiente video para profundizar con detalle en los temas mencionados: 

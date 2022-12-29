@@ -44,7 +44,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Aspectos mínimos en un contrato de <i>software</i>',
+            titulo: 'Contrato de <i>software</i>',
             hash: 't_1_1',
           },
           {
@@ -57,7 +57,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.3',
             titulo:
-              'Normativa y legislaciones en la contratación de ​<i>software</i>',
+              'Normativa y legislaciones en la contratación de <i>software</i>',
             hash: 't_1_3',
           },
         ],
@@ -66,7 +66,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Cálculo de costos de ​<i>​software</i>',
+        titulo: 'Cálculo de costos de <i>software</i>',
         desarrolloContenidos: true,
       },
       {
@@ -79,7 +79,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Técnicas de estimación del tamaño del​ <i>​software</i>',
+            titulo: 'Técnicas de estimación del tamaño del <i>software</i>',
             hash: 't_3_1',
           },
           {
