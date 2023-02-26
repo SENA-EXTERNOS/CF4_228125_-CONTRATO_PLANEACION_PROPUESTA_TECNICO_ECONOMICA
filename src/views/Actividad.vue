@@ -9,7 +9,7 @@
       h1 Actividad didáctica
 
     .titulo-segundo.color-acento-contenido
-      h2 Contrato y planeación de propuesta técnico económica 
+      h2 Contrato y planeación de propuesta técnico - económica
 
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
@@ -18,13 +18,13 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9.mt-3
 
-        p.mb-4 Teniendo en cuenta los conceptos del componente anterior recién vistos, validar las siguientes preguntas de verdadero y falso para así poder realizar la retroalimentación. 
+        p.mb-4 Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Verdadero y falso
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad1/index.html')" target="_blank")
+              a.boton.boton--b(style="background-color:#FECB2F" :href="obtenerLink('/actividades/actividad1/index.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 

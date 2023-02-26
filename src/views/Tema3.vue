@@ -5,10 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Técnicas de estimación de proyectos de #[i software]
-
-    .row.mb-5
-      p La planificación es el primer elemento de un proyecto de #[i software] y la estimación de recursos, esfuerzos, costos y tiempos es una de las tareas más importantes en esta etapa para garantizar el buen desarrollo del proyecto.
+      h1 Licenciamiento
 
     .row.mb-5
       .bloque-texto-g.color-secundario.p-5
@@ -16,30 +13,47 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img1.svg')})`}"
         )
         .bloque-texto-g1__texto.p-4
-          p.mb-0 Evaluar los elementos que tienen relación con un proyecto (cronograma, esfuerzo, costo, personal, etc.) requiere conocer su alcance para estimar las posibles acciones, contrastar opciones y obtener cálculos de los costes antes de decidirse por un enfoque determinado. 
+          p.mb-3 Las licencias de #[i software] son un acuerdo entre el autor o propietario del #[i software] y el usuario final que determina las condiciones y términos en los que el usuario puede utilizar el #[i software].
+          p Las licencias de #[i software] establecen las reglas para el uso del #[i software], incluyendo cómo se puede distribuir, modificar y redistribuir el #[i software]. Algunas licencias de #[i software] son gratuitas y permiten al usuario utilizar el #[i software] de forma libre y sin restricciones, mientras que otras licencias de #[i software] son de pago y requieren que el usuario pague una tarifa para utilizar el #[i software]. Es importante leer y entender las condiciones de la licencia de #[i software] antes de utilizar cualquier #[i software], ya que al hacerlo, se están aceptando los términos y condiciones de la licencia.
+
+    .row.mb-5
+      p Desde la década de 1980, el número de tipos de licencias de #[i software] ha estado en constante evolución debido a que las empresas de #[i software] comenzaron a restringir el uso del #[i software] de acuerdo a sus intereses. Para entender el mundo de las licencias de #[i software], es necesario diferenciar entre dos categorías principales.
+
+    .row
+      .col-lg-6
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema3/img2.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-3
+              h4 El #[i software] libre no está protegido por derechos de autor
+              p No tiene por qué ser gratis, pero el usuario tiene libertad sobre ese programa para modificarlo, usarlo, copiarlo y distribuirlo a su manera. Eso permite a los millones de desarrolladores del mundo, aumentar sus posibilidades y expandir el conocimiento.
+
+      .col-lg-6
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema3/img3.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-3
+              h4 El #[i software] de propietario
+              p Es aquel que su creador/dueño legal, prohíbe la copia o delimita su redistribución y modificación, sin su autorización o sin un pago previo.
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .cajon.color-acento-contenido.p-4
+          p Además de las licencias de #[i software] libre y de propiedad, existen otras opciones de licencias, como el #[i software] gratuito o de dominio público, que no está protegido por derechos de autor y se puede utilizar libremente. Sin embargo, el autor del #[i software] puede imponer ciertas restricciones en cuanto a la distribución y uso del #[i software] y de cualquier trabajo generado a partir del mismo. También existe la licencia de #[i software] semilibre, que pertenece a un dueño pero se permite la distribución, uso, copia y modificación del #[i software] por parte de individuos sin fines de lucro. Es importante leer y comprender las condiciones de cada tipo de licencia de #[i software] antes de utilizar el #[i software].
+
+    .row.mb-5
+      p Cuando se toma un programa, sea bajo el tipo de licencia que sea, lo que realmente se adquiere es una licencia de uso, nunca el programa en sí y, como norma principal, se otorga una licencia por punto de uso o dispositivo. Veamos algunos tipos de licencias:
 
     .row.mb-5
       .tarjeta.tarjeta--azul5.p-5
         SlyderA(tipo="b")
           .row
             .col-lg-7
-              p En el contexto de un proyecto de #[i software], hay varios factores que deben ser estimados, como el tiempo de ejecución de cada actividad en el proyecto (análisis, gestión, desarrollo, pruebas, etc.) o del proyecto en su conjunto, así como la verificación de los casos de prueba por riesgos, casos de uso, esfuerzo requerido y otros índices estimables.
-
-            .col-lg-5
-              figure
-                img(src='@/assets/curso/temas/tema3/img2.svg', alt='')
-
-          .row
-            .col-lg-7
-              p En cualquier esfuerzo para estimar los tiempos, costos o recursos a largo plazo, es necesario realizar estimaciones. Este proceso es especialmente importante en la planificación y gestión de proyectos, ya que el primer paso suele ser la estimación del tamaño del #[i software.] Con esta información se pueden calcular el esfuerzo necesario y los posibles cronogramas para completar el proyecto de manera satisfactoria.
-
-            .col-lg-5
-              figure
-                img(src='@/assets/curso/temas/tema3/img3.svg', alt='')
-
-          .row
-            .col-lg-7
-              p La tarea de estimar los costos suele ser una de las primeras cosas que se hacen en un proyecto, a menudo después de definir los requisitos. Sin embargo, esta tarea se suele realizar de forma regular a lo largo de la ejecución del proyecto con el fin de ajustar la precisión de la estimación inicial.
+              p #[b Licencias de #[i software] libre]: permiten a los usuarios utilizar el #[i software] de acuerdo a sus necesidades, incluyendo ejecutar el programa, estudiar su funcionamiento, modificarlo para adaptarlo a sus necesidades, copiar y redistribuir el #[i software] y mejorarlo y compartir esas mejoras con la comunidad. Estas licencias ofrecen una gran libertad y flexibilidad para el uso del #[i software] y son una buena opción para aquellos que deseen colaborar en el desarrollo y mejora del #[i software].
+              p #[b Licencias de #[i software] libre no protegido con #[i copyright]]: son aquellas que permiten la redistribución y modificación del #[i software], pero también permiten añadir restricciones adicionales a algunas copias o versiones modificadas del #[i software]. Esto significa que algunas copias o versiones modificadas del #[i software] pueden no ser completamente libres y pueden requerir un #[i software] de pago para poder ejecutar ciertos elementos. Estas licencias pueden ser útiles para aquellos que deseen distribuir #[i software] libre, pero también deseen restringir ciertas formas de uso o modificación del #[i software].
+              p #[b Licencias de #[i software] libre protegidas con #[i copyright]]: son aquellas que no permiten a quienes modifican o redistribuyen el #[i software] agregar restricciones adicionales. Esto significa que cualquier copia o modificación del #[i software] debe ser libremente utilizable y distribuible. El #[i copyright] es una práctica legal y común que consiste en utilizar los derechos de autor para promover el uso y la distribución libres de una obra y exigir las mismas libertades al distribuir copias y derivados de la obra. Esto se utiliza para garantizar que el #[i software] libre siga siendo libre a medida que se modifica y se redistribuye.
 
             .col-lg-5
               figure
@@ -47,7 +61,10 @@
 
           .row
             .col-lg-7
-              p En otras palabras, estimar es difícil, y una forma adecuada de acercarse a esto puede ser desarrollando los requerimientos de manera incremental, detallando las estimaciones a medida que se obtiene más información. Estimar temprano puede ser peligroso, ya que al comienzo de un sistema, la cantidad de información que se tiene suele ser muy limitada, lo que dificulta el proceso.
+              p #[strong Licencia de #[i software] de GPL (GNU LGPL):] es #[i software] libre y permite que se enlace con módulos no libres. Debe estar disponible y accesible para copias ilimitadas y a cualquier persona que lo solicite. 
+              p #[strong Licencia BSD:] es una licencia permisiva, pues casi no impone condiciones sobre lo que un usuario puede hacer. Es la menos restrictiva para los desarrolladores. El #[i software] puede ser vendido y no hay responsabilidad de incluir el código fuente. 
+              p #[strong Licencias de MPL:] son las de Mozilla Firefox, Mozilla Thunderbird y la mayoría de otros #[i software] de Mozilla. Son algo menos permisivas que las anteriores.
+              p #[b Licencia de #[i software] de #[i Debian]]: su nombre completo es #[i Debian Free software Guidelines] (DFSG) y de ella deriva la licencia de #[i Open Source Initiative]. Decreta en sus criterios de distribución, la exigencia de la redistribución libre (también del trabajo derivado bajo la misma licencia del original), publicación del código fuente y que no puede excluir a grupo de personas o ninguna persona, ni el #[i software], ni ninguna forma de su utilización.
 
             .col-lg-5
               figure
@@ -55,14 +72,10 @@
 
           .row
             .col-lg-7
-              p La estimación de costos es muy útil en la administración de proyectos porque:
-              ul.lista-ul--color
-                li 
-                  i.fas.fa-circle.color-vineta
-                  | En la etapa de planteamiento, ayuda a indicar cuántas personas son necesarias para llevar a cabo el proyecto y a establecer un cronograma adecuado.
-                li 
-                  i.fas.fa-circle.color-vineta
-                  p Durante el desarrollo del proyecto, permite conocer el alcance del proyecto y calcular si se está progresando de acuerdo al cronograma previsto. Si no es así, es necesario crear un plan de acción a tiempo. Para hacer esto, es necesario contar con métricas que permitan medir el nivel de cumplimiento del desarrollo del #[i software.]
+              p #[strong Licencia#[i  Open Source Initiative]:] una de las licencias más conocidas y utilizadas, llamada también de fuentes abiertas o código abierto, que permite la libre distribución (también del código fuente), la variación del mismo, los desarrollos derivados y su redistribución en las mismas condiciones que el #[i software] original.
+              p #[b Licencia de #[i software] de X.org (X #[i Windows System])]: distribuida por el Consorcio X (es la organización que controla su desarrollo), es usada en los sistemas operativos Linux y UNIX nacidos como una alternativa a la minoría de los sistemas gráficos como Microsoft. Es también #[i software] libre, aunque sin adherirse al #[i copyright].
+              p #[strong Licencia de #[i software Freeware]:] autoriza el uso del #[i software] de forma gratuita y libre, pero en general a particulares y no a empresas u organismos oficiales. 
+              p #[strong Licencia de #[i software de Donationware]:] es similar a la licencia #[i Freeware], pero solicita a cambio una donación, aunque no sea obligatorio hacerlo para poder utilizarla. La licencia de #[i software] de #[i Postcardware] es similar, pero, en lugar de una donación, suele solicitar el envío de una postal como confirmación de su utilización. 
 
             .col-lg-5
               figure
@@ -70,7 +83,9 @@
 
           .row
             .col-lg-7
-              p En el campo de la ingeniería de #[i software], la estimación de costos se refiere a determinar el alcance del #[i software] y la cantidad de personas necesarias para desarrollar el producto. Existe una fuerte conexión entre calidad, costo y cronograma, ya que estos tres aspectos están estrechamente relacionados entre sí.
+              p #[strong Licencias de prueba o #[i Shareware]:] todos los usuarios se han encontrado alguna vez con este tipo de licencia. Suelen pedir un registro previo y autoriza el uso de un programa para que el usuario lo evalúe y, posteriormente, lo compre. La licencia tipo Demo es una parte de un programa para su evaluación. Son muy populares en el caso de #[i software] de juegos, etc. 
+              p #[strong Licencias de #[i software] de propietario:] con las licencias de #[i software] de código cerrado o #[i software] propietario o privativo (llamadas CLUFs o para usuario final), los propietarios establecen los derechos de modificación, uso, copia, distribución, redistribución, cesión y cualquier otra consideración necesaria. Los fabricantes de programas sometidos a este tipo de licencias ofrecen servicios de actualizaciones durante el tiempo de vida del producto y, además, soporte técnico. Este tipo de licencias no permiten que el #[i software] sea cambiado, copiado o distribuido, desensamblado; además, controlan el número de copias que pueden ser instaladas y los fines establecidos para los cuales puede ser utilizado.
+              p #[strong Licencia de #[i software] de privativo:] su uso, redistribución o modificación está prohibida, o requiere de la solicitud de una autorización.
 
             .col-lg-5
               figure
@@ -78,301 +93,21 @@
 
           .row
             .col-lg-7
-              p La complejidad de mejorar la calidad de un software sin aumentar su costo y/o su plazo de ejecución se señala en lo anterior. Como resultado, el plazo de desarrollo no puede reducirse significativamente sin afectar la calidad del producto y/o aumentar el costo de desarrollo. Los modelos de estimación tienen un papel importante en este sentido, ya que permiten equilibrar estos tres factores.
+              p #[strong Licencia de #[i software] de comercial:] es aquel que está desarrollado por una entidad que tiene la intención de monetizarlo por su uso.
+              p #[strong Licencia de #[i software] de OEM:] supedita su venta a que ese #[i software] debe formar parte de un equipo nuevo (por ejemplo, el caso del sistema operativo Microsoft cuando nos compramos un nuevo ordenador). 
+              p #[strong Licencia de #[i software] de Retail:] es #[i software] que se vende, el programa es cien por ciento propiedad del usuario nuevo y puede regalarlo o venderlo. 
+              p #[strong Licencia de #[i software] de volumen:] su destino son los grandes usuarios (empresas) y el contrato de adquisición estipula un determinado número de equipos que pueden utilizar el mismo código.
 
             .col-lg-5
               figure
                 img(src='@/assets/curso/temas/tema3/img8.svg', alt='')
 
-    .bg2.p-lg-5
-      .row.mt-5
-        .col-lg-3
-          figure
-            img(src='@/assets/curso/temas/tema3/img9-1.svg', alt='').img9-1-tm2    
-        .col-lg-9.mt-5
-          .tarjeta--azul4.p-3
-            p.texto-blanco Una historia de usuario es una definición breve, informal y en lenguaje sencillo de lo que un usuario quiere hacer dentro de un producto de #[i software] para conseguir algo que le resulte valioso.
-            p.texto-blanco Es necesario resaltar que el proceso de estimación es impredecible dado que se intenta medir elementos como el esfuerzo, tamaño y costes de un proyecto que aún no ha iniciado y del cual es muy probable que se tenga poca información. Es muy importante que el representante de la gestión del proyecto tenga buen conocimiento en el tema, que tenga en cuenta trabajos pasados para no repetir los mismos problemas anteriores y sea una persona con características que le permitan prever posibles riesgos. Además, hay que tener presente que la estimación en horas tempranas es de mayor riesgo, por lo que hay que realizar constantemente validaciones y ajustes a las estimaciones ya existentes. s de usuario suelen seguir el patrón rol – función - beneficio:
-
-    separador
-
-    #t_3_1
-    .titulo-segundo.color-acento-contenido.my-5(data-aos="fade-up-right")
-      h2 3.1  Técnicas de estimación del tamaño del #[i software] 
-
-    .row.mb-5
-      p Hay diferentes métodos para evaluar el tamaño del #[i software,] como por ejemplo:
-
-    .titulo-segundo.color-acento-botones
-      h3 Medición de líneas de código fuente producidas (SLOC)
-
-
-    .row.justify-content-center.mb-3
-      .col-6.col-lg-2.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema3/img10.svg', alt='')        
-      .col-lg-10
-        p Es una de las técnicas más conocidas, pero requiere disponer del código lo que representa una restricción para realizar estimaciones tempranas, ya que la información que se obtiene en esos momentos y el tiempo que se dispone para las primeras estimaciones del proyecto son normalmente escasos. De todas las etapas en las cuales puede realizarse la estimación, cuando menos datos/información se tienen para realizarla es en el momento inicial, cuando todavía se está revisando la factibilidad del proyecto. Desde el punto de vista del desarrollo y comercialización del #[i software] específico para terceros, esa estimación temprana tiene gran importancia. Sin embargo, la tarea de estimación no se realiza una sola vez en el proyecto, sino que, a medida que se cuenta con más datos/información, se realizan estimaciones más optimas que permiten una mejor planificación de lo que falta del proyecto.
-
-    .titulo-segundo.color-acento-botones
-      h3 Puntos de Función (FP)
-
-    .row.justify-content-center.mb-3
-      .col-lg-10
-        p El Análisis de Puntos Función (FPA) provee un enfoque alternativo pues permite estimar el tamaño del #[i software] basándose en los requerimientos, luego la cantidad de SLOC se puede evaluar desde el tamaño en Puntos Función (FP). En etapas iniciales del ciclo de vida, se identifican los “Actores” y los “Casos de Uso del Sistema” y se documenta cada uno de estos mediante una pequeña descripción. Ejecutando el Análisis de Puntos de Función a estos Casos de Uso se podrá conseguir una estimación de mayor tamaño y, a partir de ella, el esfuerzo ejecutado. Más adelante, cuando se obtengan más datos acerca del sistema se podrá refinar el análisis. Posteriormente, se aumenta la documentación de cada Caso de Uso, definiendo los escenarios que se producen dentro de los mismos. Un escenario explica la secuencia de pasos que deben efectuar los actores y el sistema durante la reproducción del Caso de Uso. Si se ejecuta nuevamente el Análisis de Puntos de Función sobre estos Casos de Uso con mayor detalle, la estimación del esfuerzo y tamaño será más puntual que la anterior. El FPA calcula el tamaño del #[i software] determinando la funcionalidad provista al usuario basándose solamente en las especificaciones funcionales y el diseño lógico. Este método consiste en analizar los puntos de función teniendo en cuenta:
-
-      .col-6.col-lg-2.my-5
-        figure
-          img(src='@/assets/curso/temas/tema3/img11.svg', alt='')        
-
-    .row.mb-5
-      .col-lg-4
-        ol.lista-ol--cuadro.lista-ol--separador
-          li 
-            .lista-ol--cuadro__vineta
-              span 1
-            | Entradas al sistema.
-          li 
-            .lista-ol--cuadro__vineta
-              span 2
-            | Salidas del sistema.
-          li 
-            .lista-ol--cuadro__vineta
-              span 3
-            | Consultas.
-          li 
-      .col-lg-8
-        ol.lista-ol--cuadro.lista-ol--separador
-          li 
-            .lista-ol--cuadro__vineta
-              span 4
-            | Grupos de datos lógicos del sistema.
-          li 
-            .lista-ol--cuadro__vineta
-              span 5
-            | Grupos de datos lógicos que no pertenecen al sistema, pero que el sistema utiliza.
-          li
 
     .row.justify-content-center.mb-5
       .col-lg-10
         .cajon.color-acento-botones.p-4
-          p Debe calcular cuántos acontecimientos de cada parámetro contiene un sistema, calificándolos según su grado de complejidad en: baja, media y alta. Cada parámetro para una complejidad dada tiene un tipo de peso determinado, estos son los puntos de función asignados a ese parámetro. Luego de haber realizado esta sucesión, los puntos de función se gradúan a los requerimientos del sistema.
+          p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros. 
 
-    .row.mb-5
-      .col-lg-7
-        .row
-          p La fórmula de Albretch para calcular los puntos función, es la siguiente:
-          p.ps-5 #[strong FP = UFP x TCF] donde:		 
-          p.ps-5 UFP: son los Puntos Función No Ajustados
-          p.ps-5 TCF: Factor de Complejidad Técnica.
-
-        .row
-          p Los UFP son deducidos mediante la sumatoria de los pesos de todos los parámetros identificados. 
-
-        .row
-          p Existen varios tipos de metodologías que estiman el tamaño del #[i software]; por ejemplo:
-          ul.lista-ul--color.ps-5
-            li 
-              i.fas.fa-circle.color-vineta
-              | IFPUG-FPA (#[i Function Point Analysis]).
-            li 
-              i.fas.fa-circle.color-vineta
-              |  MKII (#[i Mark II]).
-            li 
-              i.fas.fa-circle.color-vineta
-              | FFP (#[i Full Function Point]).
-            li 
-              i.fas.fa-circle.color-vineta
-              i NESMA FPA (#[i Netherlands software Metrics Users Association Function Point Analysis]).
-
-      .col-lg-5.mt-5
-        figure
-          img(src='@/assets/curso/temas/tema3/img12.svg', alt='')
-
-
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .cajon.color-acento-botones.p-4
-          p Este método también posee dificultades en su aplicación en etapas tempranas de desarrollo del #[i software], debido a las causas previamente mencionadas de la escasez de información del sistema en esos momentos. 
-
-    .titulo-segundo.color-acento-botones
-      h3 Puntos de Casos de Usos (UCP)
-
-    .row.justify-content-center.mb-3
-      .col-6.col-lg-2.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema3/img13.svg', alt='')        
-      .col-lg-10
-        p El método UCP clasifica los casos de uso en simple, promedio y complejo con factores de peso 5, 10 y 15, respectivamente. La clasificación se realiza con base en el número de transacciones que contenga el caso de uso, 1 a 3 para simple, 4 a 7 para promedio y 8 o más para complejos. Cabe aclarar que se describe una transacción como un evento que ocurre entre el sistema a ser modelado y un actor. Luego de haber especificado los casos de uso del sistema ya se tiene un mayor nivel de detalle para poder estimar, de manera más precisa, los puntos de función. Posteriormente, con las transacciones de puntos de función (Consultas Externas, Entradas Externas y Salidas Externas) provocadas por las secuencias que forman un escenario, es posible definir la complejidad de Archivos Lógicos Internos y/o de Interfaz Externos.
-        p A continuación, se especifica de manera global el procedimiento para establecer Puntos Objeto (Casos de Uso) en un proyecto de #[i software]:
-
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .cajon.color-acento-botones.p-4
-          ul.lista-ul--color
-            li 
-              i.fas.fa-circle.color-vineta
-              | Determinar la cantidad de objetos, estimar la cantidad de reportes, pantallas, componentes que contendrá la aplicación.        
-            li 
-              i.fas.fa-circle.color-vineta
-              | Clasificar cada instancia de un objeto según sus grados de complejidad (difícil, media o simple).     
-            li 
-              i.fas.fa-circle.color-vineta
-              | Dar el peso correspondiente a cada objeto según el grado de complejidad. Los pesos reflejan el esfuerzo relativo necesario para implementar una instancia de ese nivel de complejidad.
-            li 
-              i.fas.fa-circle.color-vineta
-              | Determinar la porción de Puntos Objeto, sumando todos los pesos de las instancias de los tipos de objetos especificados.
-
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .bloque-texto-g.color-primario.p-4
-          .bloque-texto-g2__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img14.svg')})`}"
-          )
-          .bloque-texto-g2__texto.p-4
-            p.mb-0 Se debe resaltar la característica de que los casos de uso no tienen un tamaño definido, por lo que un método basado en Casos de Uso debería tener en cuenta escenarios del mismo o el número de transacciones para determinar su peso. A medida que se van concluyendo las especificaciones de los Casos de Uso, se pueden ir depurando las estimaciones de los puntos de función.
-
-    separador
-
-    #t_3_2
-    .titulo-segundo.color-acento-contenido.my-5(data-aos="fade-up-right")
-      h2 3.2  Técnicas de estimación de esfuerzo (cantidad de personas necesarias) 
-
-    .row.mb-5
-      p Para cuantificar el posible esfuerzo en un proyecto de #[i software] se utiliza la medida de meses/persona (PM), lo que representa los meses de trabajo de una persona en el equipo de desarrollo del proyecto. Existen diferentes métodos de estimación del esfuerzo, entre esos están:
-
-    .row.justify-content-center.mb-5
-      .col-lg-5
-        figure
-          img(src='@/assets/curso/temas/tema3/img15.svg', alt='')  
-
-      .col-lg-7
-        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris1")
-          .row(titulo="Puntos de Función Ajustados y Coeficientes de Conversión")
-            p los Puntos de Función Ajustados se obtienen como el producto de los Puntos de Función sin ajustar por el Factor de Ajuste:
-            p FP = UFP x AF donde: 
-            p UFP son los puntos de función sin ajustar 
-            p AF es el factor de ajuste.
-            p Para nivelar los puntos de función previamente calculados hay que estimar cada una de las características del sistema que se deben tener en cuenta con su factor de peso asociado, el cual indica el grado de importancia de la característica asociada que se está revisando. Luego de calculados los puntos de función ajustados, se pueden ejecutar los coeficientes que permitan estimar el esfuerzo del proyecto, tiempo y costo.
-          
-          .row(titulo="Estimación del esfuerzo a partir de los Casos de Uso")
-            p el esfuerzo en horas-persona viene dado por:
-            p E = UCP x CF donde:
-            p E: esfuerzo estimado en horas-persona
-            p  UCP: Puntos de Casos de Uso ajustados
-            p CF: factor de conversión 
-          
-          .row(titulo="Modelo Composición de Aplicación")
-            p para este modelo la fórmula que se propone es la siguiente:
-            p PM = NOP / PROD donde:
-            p NOP (Nuevos Puntos Objeto): tamaño del nuevo #[i software] a desarrollar expresado en Puntos Objeto, se calcula de la siguiente manera:
-            p NOP = OP x (100 - % reúso)/100, donde
-            p OP (Puntos Objeto): es el tamaño del #[i software] a desarrollar representado en Puntos Objeto
-            p %reúso: porcentaje de reúso que se espera lograr en el proyecto.
-            p PROD: es la productividad promedio definida a partir del análisis de datos de proyectos.
-
-          .row(titulo="Modelo Diseño Temprano")
-            p este modelo se utiliza, como su nombre lo indica, en etapas tempranas del proyecto de #[i software], cuando se conoce muy poco del sistema a desarrollar. El mismo emplea para su cálculo Multiplicadores de Esfuerzo, los cuales se clasifican en categorías, estas son:
-            ul.lista-ul
-              li 
-                i.lista-ul__vineta.color-vineta2
-                | Del producto
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | RCPX: confiabilidad y complejidad del producto
-                  li 
-                    i.lista-ul__vineta
-                    | RUSE: reusabilidad requerida
-              li 
-                i.lista-ul__vineta.color-vineta2
-                | De la plataforma
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | PDIF: dificultad de la plataforma
-              li 
-                i.lista-ul__vineta.color-vineta2
-                |  Del personal 
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | PERS: aptitud del personal
-                  li 
-                    i.lista-ul__vineta
-                    | PREX: experiencia del personal
-              li 
-                i.lista-ul__vineta.color-vineta2
-                | Del proyecto 
-              li
-                ul
-                  li 
-                    i.lista-ul__vineta
-                    | FCIL: facilidades
-                  li 
-                    i.lista-ul__vineta
-                    | SCED: cronograma de desarrollo requerido
-
-          .row(titulo="Modelo Post-Arquitectura")
-            p este modelo utiliza:
-            ul.lista-ul--color
-              li 
-                i.fas.fa-circle.color-vineta
-                | Puntos Función y/o Líneas de Código Fuente para realizar la estimación del tamaño, con modificadores que contemplan el reúso, con y sin traducción automática, y el "desperdicio" (breakage).
-            ul.lista-ul--color
-              li 
-                i.fas.fa-circle.color-vineta
-                | Un grupo de 17 atributos, llamados factores de costo, que permiten estimar características del proyecto referentes al personal, plataforma de desarrollo, etc., que tienen intervención en los costos.
-            ul.lista-ul--color
-              li 
-                i.fas.fa-circle.color-vineta
-                | Cinco factores que establecen un exponente, según el modelo del concepto de economía de escala y deseconomía.
-            
-          .row(titulo="COCOMO II")
-            p Cocomo II está compuesto por tres de los modelos previamente descritos, a saber, Composición de Aplicación, Diseño Temprano y Post-Arquitectura. El modelo Composición de Aplicación se usa en desarrollos de #[i software] que se encuentran en la etapa de prototipación, el modelo Diseño Temprano se utiliza en las primeras fases del desarrollo en las cuales se estiman las alternativas de hardware y #[i software] de un proyecto y el modelo Post-Arquitectura se ejecuta en la etapa de desarrollo, después de que se describe la arquitectura del sistema y en la fase de mantenimiento. 
-          
-    separador
-
-    #t_3_3
-    .titulo-segundo.color-acento-contenido.my-5(data-aos="fade-up-right")
-      h2 3.3.  Estimación de cronogramas (tiempo)
-
-    .row.mb-5
-      p La estimación de cronogramas consiste en realizar una estimación del número de períodos de trabajo (semanas, días, horas) que serán obligatorios para completar cada actividad dentro del proyecto, siempre es necesario tener en cuenta que se deben ajustar los cronogramas a la medida que el proyecto de #[i software] se va desarrollando. Existen múltiples técnicas para la estimación de la duración de un proyecto, entre las cuales podemos resaltar las siguientes:
-
-    .row.justify-content-center.mb-5
-      AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul3")
-        .row.p-5(titulo="Juicio de expertos:")
-          .col-lg-7
-            p utilizar la experiencia de las personas.
-            
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/temas/tema3/img16.svg', alt='') 
-
-        .row.p-5(titulo="Estimación por analogía")
-          .col-lg-7
-            p pueden basarse en la estimación hecha con anterioridad para una actividad parecida (del mismo o de otro proyecto). 
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/temas/tema3/img17.svg', alt='') 
-
-        .row.p-5(titulo="Simulación")
-          .col-lg-7
-            p se basa en medir múltiples estimaciones partiendo de diferentes grupos de asunciones. El método más general es el Análisis de Monte Carlo, el cual dice que a partir de una distribución de resultados probables para cada actividad, se cuantifica una distribución de resultados probables para todo el proyecto.
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/temas/tema3/img18.svg', alt='') 
-
-        .row.p-5(titulo="Métodos matemáticos")
-          .col-lg-7
-            p proporcionan estimaciones directas ejecutando técnicas estadísticas o fórmulas matemáticas (lineales o no lineales) sobre algunos datos empíricos: por ejemplo, Cocomo.
-          .col-lg-5
-            figure
-              img(src='@/assets/curso/temas/tema3/img19.svg', alt='') 
 
 
 </template>

@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Contrato y planeación de propuesta técnico económica ',
+      'Contrato y planeación de propuesta técnico - económica',
     descripcionCurso:
-      '​En este recorrido temático, vamos a plantear una propuesta de manera técnico-económica de acuerdo con las necesidades del cliente y respetando los requerimientos. Lo anterior se hará teniendo en cuenta las normativas, legislaciones y condiciones contractuales de este proceso. Se realiza también una estimación de desarrollo, costos y el talento humano requerido para el proyecto en curso; además del uso de las herramientas para calcular los costos y generar recursos económicos monetizando un servicio o un producto.',
+      'En este recorrido temático, vamos a plantear una propuesta de manera técnico-económica, de acuerdo con las necesidades del cliente y respetando los requerimientos. Lo anterior se hará teniendo en cuenta las normativas, legislaciones y condiciones contractuales de este proceso. Se realiza también una estimación de desarrollo, costos y el talento humano requerido para el proyecto en curso, además del uso de las herramientas para calcular los costos y generar recursos económicos, monetizando un servicio o un producto.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -38,69 +38,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Aspectos mínimos en un contrato de <i>software</i>',
+        titulo: 'Contrato de <i>software</i>',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Contrato de <i>software</i>',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Tipos de contratos',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo:
-              'Normativa y legislaciones en la contratación de <i>software</i>',
-            hash: 't_1_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Cálculo de costos de <i>software</i>',
+        titulo: 'Técnicas de estimación de proyectos de <i>software</i>',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Técnicas de estimación de proyectos de <i>software</i>',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Técnicas de estimación del tamaño del <i>software</i>',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo:
-              'Técnicas de estimación de esfuerzo (cantidad de personas necesarias)',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Estimación de cronogramas (tiempo)',
-            hash: 't_3_3',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
         titulo: 'Licenciamiento',
         desarrolloContenidos: true,
       },
@@ -147,31 +98,31 @@ export default {
   },
   complementario: [
     {
-      tema: 'Técnicas de estimación de proyectos de <i>software</i>',
+      tema: 'Técnicas de estimación de proyectos de <em>software</em>',
       referencia:
-        'Iacono, M. (2021, marzo 8). <i>Técnicas de estimación de proyectos de software</i> [Video]. YouTube.',
+        'Iacono, M. (2021). <em>Técnicas de estimación de proyectos de software</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=47DKIbfcVlY',
     },
     {
-      tema: 'Contrato de <i>software</i>',
+      tema: 'Contrato de <em>software</em>',
       referencia:
-        'Código ISC (2020, diciembre 15). <i>Partes del contrato de software o contrato informático</i> [Video]. YouTube.',
+        'Código ISC. (2020). <em>Partes del contrato de software o contrato informático</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=SKWQSGjufg4',
     },
     {
       tema: 'Licenciamiento',
       referencia:
-        'OpenWebinars (2019, agosto 11). <i>Licencias de Software (y sus tipos de licencia)</i> [Video]. YouTube.',
+        'OpenWebinars. (2019). <em>Licencias de Software (y sus tipos de licencia)</em> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Sz07vfAlqYo',
     },
     {
-      tema: 'Estimación',
+      tema: 'Técnicas de estimación de proyectos de <em>software</em>',
       referencia:
-        'Infortech (2021, julio 24). <i>Presupuesto y Estimación de Proyecto de software</i> [Video]. YouTube. ',
-      tipo: '',
+        'Infortech. (2021). <em>Presupuesto y Estimación de Proyecto de software</em> [video]. YouTube.',
+      tipo: 'Video',
       link: 'https://youtu.be/Scz9te0Ylfo',
     },
   ],
@@ -217,9 +168,9 @@ export default {
         'son un tipo de acuerdo contractual que establece las normas para el uso de un producto. Existen varias licencias en función de las condiciones para su uso o de su gratuidad.',
     },
     {
-      termino: '<i>Software</i> libre:',
+      termino: '<em>Software</em> libre',
       significado:
-        'es aquel que les da a sus usuarios la libertad de ejecutar, copiar, estudiar, modificar y distribuir el software.',
+        'es aquel que les da a sus usuarios la libertad de ejecutar, copiar, estudiar, modificar y distribuir el <em>software</em>.',
     },
     {
       termino: 'Viabilidad',
@@ -236,22 +187,17 @@ export default {
     },
     {
       referencia:
-        'Iteckne vol.17 no.2 Bucaramanga July/Dec. 2020  Epub Mar 01, 2021',
+        'Méndez, E. R. (2018). <em>Estimación de esfuerzo en proyectos de desarrollo de software con metodologías ágiles</em>. [Tesis de máster en Gestión y Dirección de Proyectos, Universitat Politècnica de València].',
       link: '',
     },
     {
       referencia:
-        'Méndez, E. R. (2018). Estimación de esfuerzo en proyectos de desarrollo de software con metodologías ágiles. [Tesis de máster en Gestión y Dirección de Proyectos, Universitat Politècnica de València]',
+        'Pérez, I., López, P., Varona, E., Piñero, P. y García, R. (2018): Construcción de resúmenes lingüísticos a partir de rasgos de la personalidad y el desempeño en el desarrollo de <em>software. Revista Cubana de Ciencias Informáticas, 12</em>, p. 135-150.',
       link: '',
     },
     {
       referencia:
-        'Pérez, I.; López, P.; Varona, E.; Piñero, P. y García, R. (2018): Construcción de resúmenes lingüísticos a partir de rasgos de la personalidad y el desempeño en el desarrollo de software. Revista Cubana de Ciencias Informáticas, 12, 135-150.',
-      link: '',
-    },
-    {
-      referencia:
-        'Rodríguez, J. R. (2005). Gestión de Proyectos Informáticos: Métodos, herramientas y casos. Editorial UOC.',
+        'Rodríguez, J. R. (2005). <em>Gestión de Proyectos Informáticos: Métodos, herramientas y casos</em>. Editorial UOC.',
       link: '',
     },
   ],
