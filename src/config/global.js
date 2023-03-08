@@ -181,7 +181,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Colombia Compra Eficiente (2020). Guía de buenas prácticas en la adquisición de Software y servicios asociados. Departamento Nacional de Planeación.',
+        'Colombia Compra Eficiente (2020). <em>Guía de buenas prácticas en la adquisición de Software y servicios asociados</em>. Departamento Nacional de Planeación.',
       link:
         'https://www.colombiacompra.gov.co/sites/cce_public/files/cce_documents/guia_de_buenas_practicas_software_ver1_logo01.pdf',
     },

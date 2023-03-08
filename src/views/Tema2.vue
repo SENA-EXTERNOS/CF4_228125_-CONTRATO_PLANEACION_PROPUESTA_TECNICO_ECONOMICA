@@ -119,7 +119,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img11.svg', alt='')        
 
-    .row.mb-5
+    .row
       .col-lg-4
         ol.lista-ol--cuadro.lista-ol--separador
           li 
@@ -147,10 +147,6 @@
             | Grupos de datos lógicos que no pertenecen al sistema, pero que el sistema utiliza.
           li
 
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .cajon.color-acento-botones.p-4
-          p Debe calcular cuántos acontecimientos de cada parámetro contiene un sistema, calificándolos según su grado de complejidad en: baja, media y alta. Cada parámetro para una complejidad dada tiene un tipo de peso determinado, estos son los puntos de función asignados a ese parámetro. Luego de haber realizado esta sucesión, los puntos de función se gradúan a los requerimientos del sistema.
 
     .row.mb-5
       .col-lg-7
@@ -322,7 +318,7 @@
                 | Cinco factores que establecen un exponente, según el modelo del concepto de economía de escala y deseconomía de escala.
             
           .row(titulo="COCOMO II")
-            p Cocomo II está compuesto por tres de los modelos previamente descritos: Composición de Aplicación, Diseño Temprano y Post-Arquitectura. El modelo Composición de Aplicación se usa en desarrollos de #[i software] que se encuentran en la etapa de prototipación; el modelo Diseño Temprano se utiliza en las primeras fases del desarrollo, en las cuales se estiman las alternativas de hardware y #[i software] de un proyecto; el modelo Post-Arquitectura se ejecuta en la etapa de desarrollo, después que se describe la arquitectura del sistema, y en la fase de mantenimiento.
+            p Cocomo II está compuesto por tres de los modelos previamente descritos: Composición de Aplicación, Diseño Temprano y Post-Arquitectura. El modelo Composición de Aplicación se usa en desarrollos de #[i software] que se encuentran en la etapa de prototipación; el modelo Diseño Temprano se utiliza en las primeras fases del desarrollo, en las cuales se estiman las alternativas de #[i hardware] y #[i software] de un proyecto; el modelo Post-Arquitectura se ejecuta en la etapa de desarrollo, después que se describe la arquitectura del sistema, y en la fase de mantenimiento.
           
     h2.my-5(data-aos="fade-up-right") Estimación de cronogramas (tiempo)
 
