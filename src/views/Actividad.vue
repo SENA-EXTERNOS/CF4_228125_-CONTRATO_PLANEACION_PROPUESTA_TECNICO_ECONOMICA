@@ -24,7 +24,7 @@
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Verdadero y falso
             .col-auto
-              a.boton.boton--b(style="background-color:#FECB2F" :href="obtenerLink('/actividades/actividad1/index.html')" target="_blank")
+              a.boton.boton--b(style="background-color:#FECB2F" :href="obtenerLink('/actividades/index.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 
