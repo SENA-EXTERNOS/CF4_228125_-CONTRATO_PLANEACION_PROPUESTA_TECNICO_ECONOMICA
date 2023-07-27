@@ -62,7 +62,7 @@
                   | La etapa de planteamiento posibilita indicar la cantidad de personas que se requieren para la ejecución del proyecto y establecer cronogramas correctos.
                 li 
                   i.fas.fa-circle.color-vineta
-                  | Durante el desarrollo del proyecto, permite conocer su alcance y calcular si el proyecto se está desarrollando según lo indicado en el cronograma. De lo contrario, se deberá crear un plan de acción a tiempo. Para lo anterior, es necesario contar con métricas que permitan calcular el nivel de cumplimiento del desarrollo del #[i software].
+                  p.mb-0 Durante el desarrollo del proyecto, permite conocer su alcance y calcular si el proyecto se está desarrollando según lo indicado en el cronograma. De lo contrario, se deberá crear un plan de acción a tiempo. Para lo anterior, es necesario contar con métricas que permitan calcular el nivel de cumplimiento del desarrollo del #[i software].
 
             .col-lg-5
               figure
@@ -193,7 +193,7 @@
           img(src='@/assets/curso/temas/tema2/img13.svg', alt='')        
       .col-lg-10
         p El método UCP clasifica los casos de uso en simple, promedio y complejo con factores de peso 5, 10 y 15, respectivamente. La clasificación se realiza con base en el número de transacciones que contenga el caso de uso, 1 a 3 para simple, 4 a 7 para promedio y 8 o más para complejos. Cabe aclarar que se describe una transacción como un evento que ocurre entre el sistema a ser modelado y un actor. Luego de haber especificado los casos de uso del sistema ya se tiene un mayor nivel de detalle para poder estimar, de manera más precisa, los puntos de función. Posteriormente, con las transacciones de puntos de función (Consultas Externas, Entradas Externas y Salidas Externas) provocadas por las secuencias que forman un escenario, es posible definir la complejidad de Archivos Lógicos Internos y/o de Interfaz Externos.
-        p A continuación, se especifica de manera global el procedimiento para establecer Puntos Objeto (Casos de Uso) en un proyecto de #[i software]:
+        p A continuación, se específica de manera global el procedimiento para establecer Puntos Objeto (Casos de Uso) en un proyecto de #[i software]:
 
     .row.justify-content-center.mb-5
       .col-lg-10

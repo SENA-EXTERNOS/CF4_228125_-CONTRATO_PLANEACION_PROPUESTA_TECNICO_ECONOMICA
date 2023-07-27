@@ -191,9 +191,9 @@
                 img(src='@/assets/curso/temas/tema1/img24.svg', alt='')
 
     
-    .row.mt-5 
-      h2.mb-5(data-aos="fade-up-right") Cálculo de costos de #[i software]
-        p.mt-3 En el siguiente video, se muestran aspectos claves para el #[b cálculo de costos de] #[i #[b software]]. Visualícelo atentamente:
+    
+    h2(data-aos="fade-up-right") Cálculo de costos de #[i software]
+    p.mt-3 En el siguiente video, se muestran aspectos claves para el #[b cálculo de costos de] #[i #[b software]]. Visualícelo atentamente:
 
     .row.mb-5(data-aos="fade-zoom")
       figure

@@ -16,27 +16,27 @@
           p.mb-3 Las licencias de #[i software] son un acuerdo entre el autor o propietario del #[i software] y el usuario final que determina las condiciones y términos en los que el usuario puede utilizar el #[i software].
           p Las licencias de #[i software] establecen las reglas para el uso del #[i software], incluyendo cómo se puede distribuir, modificar y redistribuir el #[i software]. Algunas licencias de #[i software] son gratuitas y permiten al usuario utilizar el #[i software] de forma libre y sin restricciones, mientras que otras licencias de #[i software] son de pago y requieren que el usuario pague una tarifa para utilizar el #[i software]. Es importante leer y entender las condiciones de la licencia de #[i software] antes de utilizar cualquier #[i software], ya que al hacerlo, se están aceptando los términos y condiciones de la licencia.
 
-    .row.mb-5
-      p Desde la década de 1980, el número de tipos de licencias de #[i software] ha estado en constante evolución debido a que las empresas de #[i software] comenzaron a restringir el uso del #[i software] de acuerdo a sus intereses. Para entender el mundo de las licencias de #[i software], es necesario diferenciar entre dos categorías principales.
 
-    .row
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema3/img2.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
-            .p-3
+    p Desde la década de 1980, el número de tipos de licencias de #[i software] ha estado en constante evolución debido a que las empresas de #[i software] comenzaron a restringir el uso del #[i software] de acuerdo a sus intereses. Para entender el mundo de las licencias de #[i software], es necesario diferenciar entre dos categorías principales.
+    .row.mb-4
+      .col-lg-6.my-3
+        .tarjeta--azul.px-4.h-100.brad
+          .row.justify-content-center           
+            .col-lg-auto.my-3
+              img(src='@/assets/curso/temas/tema3/img2.svg' alt='AvatarTop')
+            .col.my-3.j
               h4 El #[i software] libre no está protegido por derechos de autor
-              p No tiene por qué ser gratis, pero el usuario tiene libertad sobre ese programa para modificarlo, usarlo, copiarlo y distribuirlo a su manera. Eso permite a los millones de desarrolladores del mundo, aumentar sus posibilidades y expandir el conocimiento.
+              p.mb-0 No tiene por qué ser gratis, pero el usuario tiene libertad sobre ese programa para modificarlo, usarlo, copiarlo y distribuirlo a su manera. Eso permite a los millones de desarrolladores del mundo, aumentar sus posibilidades y expandir el conocimiento.
 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema3/img3.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
-            .p-3
+      .col-lg-6.my-3
+        .tarjeta--azul.px-4.h-100.brad
+          .row.justify-content-center           
+            .col-lg-auto.my-3
+              img(src='@/assets/curso/temas/tema3/img3.svg' alt='AvatarTop')
+            .col.my-3.j
               h4 El #[i software] de propietario
-              p Es aquel que su creador/dueño legal, prohíbe la copia o delimita su redistribución y modificación, sin su autorización o sin un pago previo.
+              p.mb-0 Es aquel que su creador/dueño legal, prohíbe la copia o delimita su redistribución y modificación, sin su autorización o sin un pago previo.            
+
 
     .row.justify-content-center.mb-5
       .col-lg-10
