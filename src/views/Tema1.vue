@@ -8,7 +8,9 @@
       h1 Contrato de #[i software] 
 
     .row
-      p El contrato de #[i software] es un tipo de contratación que permite que el propietario del programa conceda un derecho de uso a una persona o empresa, a cambio de un intercambio económico.
+      p.mb-5 El contrato de #[i software] es un tipo de contratación que permite que el propietario del programa conceda un derecho de uso a una persona o empresa, a cambio de un intercambio económico.
+      
+      h3 Aspectos mínimos en un contrato de software
       p De acuerdo con los intereses de las partes y la modalidad de contrato, las cláusulas que se deben tener en cuenta son las siguientes:      
     
 

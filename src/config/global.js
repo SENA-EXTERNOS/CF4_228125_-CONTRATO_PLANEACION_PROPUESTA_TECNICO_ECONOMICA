@@ -4,13 +4,9 @@ export default {
       'Contrato y planeación de propuesta técnico - económica',
     descripcionCurso:
       'En este recorrido temático, vamos a plantear una propuesta de manera técnico-económica, de acuerdo con las necesidades del cliente y respetando los requerimientos. Lo anterior se hará teniendo en cuenta las normativas, legislaciones y condiciones contractuales de este proceso. Se realiza también una estimación de desarrollo, costos y el talento humano requerido para el proyecto en curso, además del uso de las herramientas para calcular los costos y generar recursos económicos, monetizando un servicio o un producto.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
@@ -187,18 +183,19 @@ export default {
     },
     {
       referencia:
+        'Iteckne vol.17 no.2 Bucaramanga July/Dec. 2020 Epub Mar 01, 2021',
+    },
+    {
+      referencia:
         'Méndez, E. R. (2018). <em>Estimación de esfuerzo en proyectos de desarrollo de software con metodologías ágiles</em>. [Tesis de máster en Gestión y Dirección de Proyectos, Universitat Politècnica de València].',
-      link: '',
     },
     {
       referencia:
         'Pérez, I., López, P., Varona, E., Piñero, P. y García, R. (2018): Construcción de resúmenes lingüísticos a partir de rasgos de la personalidad y el desempeño en el desarrollo de <em>software. Revista Cubana de Ciencias Informáticas, 12</em>, p. 135-150.',
-      link: '',
     },
     {
       referencia:
         'Rodríguez, J. R. (2005). <em>Gestión de Proyectos Informáticos: Métodos, herramientas y casos</em>. Editorial UOC.',
-      link: '',
     },
   ],
   creditos: {
