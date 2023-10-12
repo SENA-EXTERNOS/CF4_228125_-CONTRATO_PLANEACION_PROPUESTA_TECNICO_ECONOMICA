@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/CF4_228125_-CONTRATO_PLANEACION_PROPUESTA_TECNICO_ECONOMICA/](https://sena-externos.github.io/CF4_228125_-CONTRATO_PLANEACION_PROPUESTA_TECNICO_ECONOMICA/)
 
 #
 
