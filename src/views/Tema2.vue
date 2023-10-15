@@ -5,10 +5,10 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Técnicas de estimación de proyectos de #[i software]
+      h1 Técnicas de estimación de proyectos de #[em software]
 
     .row.mb-5
-      p El primer elemento de un proyecto de #[i software], es la planificación. En esta etapa del proceso, una de las tareas con mayor valor es la estimación, tanto de recursos, esfuerzos, costos y tiempos para el buen desarrollo del proyecto.
+      p El primer elemento de un proyecto de #[em software], es la planificación. En esta etapa del proceso, una de las tareas con mayor valor es la estimación, tanto de recursos, esfuerzos, costos y tiempos para el buen desarrollo del proyecto.
 
     .row.mb-5
       .bloque-texto-g.color-secundario.p-5
@@ -23,7 +23,7 @@
         SlyderA(tipo="b")
           .row
             .col-lg-7
-              p Dentro del entorno de un proyecto de #[i software], existen diferentes factores a estimar; por ejemplo, el cálculo del tiempo de ejecución de cada una de las actividades a realizar dentro del proyecto (análisis, gestión, desarrollo, pruebas, etc.), o del proyecto en general, así como las validaciones de los casos de prueba por los riesgos, casos de uso, el esfuerzo a realizar, entre distintos índices estimables.
+              p Dentro del entorno de un proyecto de #[em software], existen diferentes factores a estimar; por ejemplo, el cálculo del tiempo de ejecución de cada una de las actividades a realizar dentro del proyecto (análisis, gestión, desarrollo, pruebas, etc.), o del proyecto en general, así como las validaciones de los casos de prueba por los riesgos, casos de uso, el esfuerzo a realizar, entre distintos índices estimables.
 
             .col-lg-5
               figure
@@ -31,7 +31,7 @@
 
           .row
             .col-lg-7
-              p Cualquier esfuerzo por estimar los tiempos, costos o recursos a largo plazo, implica estimaciones. Cuando se realizan la planificación y la gestión de proyectos, lo primero que se hace es la estimación del tamaño del #[i software], para luego calcular el esfuerzo necesario y los posibles cronogramas.
+              p Cualquier esfuerzo por estimar los tiempos, costos o recursos a largo plazo, implica estimaciones. Cuando se realizan la planificación y la gestión de proyectos, lo primero que se hace es la estimación del tamaño del #[em software], para luego calcular el esfuerzo necesario y los posibles cronogramas.
 
             .col-lg-5
               figure
@@ -62,7 +62,7 @@
                   | La etapa de planteamiento posibilita indicar la cantidad de personas que se requieren para la ejecución del proyecto y establecer cronogramas correctos.
                 li 
                   i.fas.fa-circle.color-vineta
-                  p.mb-0 Durante el desarrollo del proyecto, permite conocer su alcance y calcular si el proyecto se está desarrollando según lo indicado en el cronograma. De lo contrario, se deberá crear un plan de acción a tiempo. Para lo anterior, es necesario contar con métricas que permitan calcular el nivel de cumplimiento del desarrollo del #[i software].
+                  p.mb-0 Durante el desarrollo del proyecto, permite conocer su alcance y calcular si el proyecto se está desarrollando según lo indicado en el cronograma. De lo contrario, se deberá crear un plan de acción a tiempo. Para lo anterior, es necesario contar con métricas que permitan calcular el nivel de cumplimiento del desarrollo del #[em software].
 
             .col-lg-5
               figure
@@ -70,7 +70,7 @@
 
           .row
             .col-lg-7
-              p En el campo de la ingeniería de #[i software], la estimación de costos se refiere a determinar el alcance del #[i software] y la cantidad de personas necesarias para desarrollar el producto. Existe una fuerte conexión entre calidad, costo y cronograma, ya que estos tres aspectos están estrechamente relacionados entre sí.
+              p En el campo de la ingeniería de #[em software], la estimación de costos se refiere a determinar el alcance del #[em software] y la cantidad de personas necesarias para desarrollar el producto. Existe una fuerte conexión entre calidad, costo y cronograma, ya que estos tres aspectos están estrechamente relacionados entre sí.
 
             .col-lg-5
               figure
@@ -91,14 +91,14 @@
             img(src='@/assets/curso/temas/tema2/img9-1.svg', alt='').img9-1-tm2    
         .col-lg-9.mt-5
           .tarjeta--azul4.p-3
-            p.texto-blanco Una historia de usuario es una definición breve, informal y en lenguaje sencillo, de lo que un usuario quiere hacer dentro de un producto de #[i software], para conseguir algo que le resulte valioso.
+            p.texto-blanco Una historia de usuario es una definición breve, informal y en lenguaje sencillo, de lo que un usuario quiere hacer dentro de un producto de #[em software], para conseguir algo que le resulte valioso.
             p.texto-blanco Es necesario resaltar que el proceso de estimación es impredecible dado que se intenta medir elementos como el esfuerzo, tamaño y costos de un proyecto que aún no ha iniciado y del cual es muy probable que se tenga poca información. Es muy importante que el representante de la gestión del proyecto posea buen conocimiento del tema, que tenga en cuenta trabajos pasados para no repetir los mismos problemas anteriores, y sea una persona con características que le permitan prever posibles riesgos. Además, hay que tener presente que la estimación en horas tempranas es de mayor riesgo, por lo que hay que realizar constantemente validaciones y ajustes a las estimaciones ya existentes. Las historias de usuario, suelen seguir el patrón rol – función – beneficio.
 
 
-    h2.my-5(data-aos="fade-up-right") Técnicas de estimación del tamaño del #[i software] 
+    h2.my-5(data-aos="fade-up-right") Técnicas de estimación del tamaño del #[em software] 
 
     .row.mb-5
-      p Hay diferentes métodos para evaluar el tamaño del #[i software], como por ejemplo:
+      p Hay diferentes métodos para evaluar el tamaño del #[em software], como por ejemplo:
 
     h3(style="color: #0B5999").mb-4 Medición de líneas de código fuente producidas (SLOC)
 
@@ -107,13 +107,13 @@
         figure
           img(src='@/assets/curso/temas/tema2/img10.svg', alt='')        
       .col-lg-10
-        p Es una de las técnicas más conocidas, pero requiere disponer del código, lo que representa una restricción para realizar estimaciones tempranas, debido a que la información que se obtiene en esos momentos y el tiempo del que se dispone para las primeras estimaciones del proyecto, son normalmente escasos. De todas las etapas en las cuales puede realizarse la estimación, cuando menos datos/información se tiene para realizarla, es en el momento inicial, cuando todavía se está revisando la factibilidad del proyecto. Desde el punto de vista del desarrollo y comercialización del #[i software] específico para terceros, esa estimación temprana tiene gran importancia. Sin embargo, la tarea de estimación no se realiza una sola vez en el proyecto, sino que, a medida que se cuenta con más datos/información, se realizan excelentes estimaciones que permiten una mejor planificación de lo que falta del proyecto.
+        p Es una de las técnicas más conocidas, pero requiere disponer del código, lo que representa una restricción para realizar estimaciones tempranas, debido a que la información que se obtiene en esos momentos y el tiempo del que se dispone para las primeras estimaciones del proyecto, son normalmente escasos. De todas las etapas en las cuales puede realizarse la estimación, cuando menos datos/información se tiene para realizarla, es en el momento inicial, cuando todavía se está revisando la factibilidad del proyecto. Desde el punto de vista del desarrollo y comercialización del #[em software] específico para terceros, esa estimación temprana tiene gran importancia. Sin embargo, la tarea de estimación no se realiza una sola vez en el proyecto, sino que, a medida que se cuenta con más datos/información, se realizan excelentes estimaciones que permiten una mejor planificación de lo que falta del proyecto.
 
     h3(style="color: #0B5999").mb-4 Puntos de Función (FP)
 
     .row.justify-content-center.mb-3
       .col-lg-10
-        p El Análisis de Puntos de Función (FPA), provee un enfoque alternativo porque permite estimar el tamaño del #[i software], basándose en los requerimientos y luego la cantidad de SLOC se puede evaluar desde el tamaño en Puntos Función (FP). En etapas iniciales del ciclo de vida, se identifican los “Actores” y los “Casos de Uso del Sistema” y se documenta cada uno de estos, mediante una pequeña descripción. Ejecutando el Análisis de Puntos de Función a estos Casos de Uso, se podrá conseguir una estimación de mayor tamaño y, a partir de ella, el esfuerzo ejecutado. Más adelante, cuando se obtengan más datos acerca del sistema, se podrá refinar el análisis. Posteriormente, se aumenta la documentación de cada Caso de Uso, definiendo los escenarios que se producen dentro de los mismos. Un escenario explica la secuencia de pasos que deben efectuar los actores y el sistema durante la reproducción del Caso de Uso. Si se ejecuta nuevamente el Análisis de Puntos de Función sobre estos Casos de Uso con mayor detalle, la estimación del esfuerzo y tamaño será más puntual que la anterior. El FPA calcula el tamaño del #[i software] determinando la funcionalidad provista al usuario, basándose solamente en las especificaciones funcionales y el diseño lógico. Este método consiste en analizar los puntos de función, teniendo en cuenta:
+        p El Análisis de Puntos de Función (FPA), provee un enfoque alternativo porque permite estimar el tamaño del #[em software], basándose en los requerimientos y luego la cantidad de SLOC se puede evaluar desde el tamaño en Puntos Función (FP). En etapas iniciales del ciclo de vida, se identifican los “Actores” y los “Casos de Uso del Sistema” y se documenta cada uno de estos, mediante una pequeña descripción. Ejecutando el Análisis de Puntos de Función a estos Casos de Uso, se podrá conseguir una estimación de mayor tamaño y, a partir de ella, el esfuerzo ejecutado. Más adelante, cuando se obtengan más datos acerca del sistema, se podrá refinar el análisis. Posteriormente, se aumenta la documentación de cada Caso de Uso, definiendo los escenarios que se producen dentro de los mismos. Un escenario explica la secuencia de pasos que deben efectuar los actores y el sistema durante la reproducción del Caso de Uso. Si se ejecuta nuevamente el Análisis de Puntos de Función sobre estos Casos de Uso con mayor detalle, la estimación del esfuerzo y tamaño será más puntual que la anterior. El FPA calcula el tamaño del #[em software] determinando la funcionalidad provista al usuario, basándose solamente en las especificaciones funcionales y el diseño lógico. Este método consiste en analizar los puntos de función, teniendo en cuenta:
 
       .col-6.col-lg-2.my-5
         figure
@@ -160,20 +160,20 @@
           p Los UFP son deducidos mediante la sumatoria de los pesos de todos los parámetros identificados. 
 
         .row
-          p Existen varios tipos de metodologías que estiman el tamaño del #[i software]; por ejemplo:
+          p Existen varios tipos de metodologías que estiman el tamaño del #[em software]; por ejemplo:
           ul.lista-ul--color.ps-5
             li 
               i.fas.fa-circle.color-vineta
-              | IFPUG-FPA (#[i Function Point Analysis]).
+              | IFPUG-FPA (#[em Function Point Analysis]).
             li 
               i.fas.fa-circle.color-vineta
-              |  MKII (#[i Mark II]).
+              |  MKII (#[em Mark II]).
             li 
               i.fas.fa-circle.color-vineta
-              | FFP (#[i Full Function Point]).
+              | FFP (#[em Full Function Point]).
             li 
               i.fas.fa-circle.color-vineta
-              i NESMA FPA (#[i Netherlands software Metrics Users Association Function Point Analysis]).
+              i NESMA FPA (#[em Netherlands software Metrics Users Association Function Point Analysis]).
 
       .col-lg-5.mt-5
         figure
@@ -183,7 +183,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .cajon.color-acento-botones.p-4
-          p Este método también puede ser difícil de aplicar al comienzo del desarrollo del #[i software] debido a la falta de información sobre el sistema en ese momento.
+          p Este método también puede ser difícil de aplicar al comienzo del desarrollo del #[em software] debido a la falta de información sobre el sistema en ese momento.
 
     h3.mb-4 Puntos de Casos de Usos (UCP)
 
@@ -193,7 +193,7 @@
           img(src='@/assets/curso/temas/tema2/img13.svg', alt='')        
       .col-lg-10
         p El método UCP clasifica los casos de uso en simple, promedio y complejo con factores de peso 5, 10 y 15, respectivamente. La clasificación se realiza con base en el número de transacciones que contenga el caso de uso, 1 a 3 para simple, 4 a 7 para promedio y 8 o más para complejos. Cabe aclarar que se describe una transacción como un evento que ocurre entre el sistema a ser modelado y un actor. Luego de haber especificado los casos de uso del sistema ya se tiene un mayor nivel de detalle para poder estimar, de manera más precisa, los puntos de función. Posteriormente, con las transacciones de puntos de función (Consultas Externas, Entradas Externas y Salidas Externas) provocadas por las secuencias que forman un escenario, es posible definir la complejidad de Archivos Lógicos Internos y/o de Interfaz Externos.
-        p A continuación, se especifica de manera global el procedimiento para establecer Puntos Objeto (Casos de Uso) en un proyecto de #[i software]:
+        p A continuación, se especifica de manera global el procedimiento para establecer Puntos Objeto (Casos de Uso) en un proyecto de #[em software]:
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -225,7 +225,7 @@
     h2.my-5(data-aos="fade-up-right") Técnicas de estimación de esfuerzo (cantidad de personas necesarias) 
 
     .row.mb-5
-      p Para cuantificar el posible esfuerzo en un proyecto de #[i software] se utiliza la medida de meses/persona (PM), lo que representa los meses de trabajo de una persona en el equipo de desarrollo del proyecto. Existen diferentes métodos de estimación del esfuerzo, entre esos están:
+      p Para cuantificar el posible esfuerzo en un proyecto de #[em software] se utiliza la medida de meses/persona (PM), lo que representa los meses de trabajo de una persona en el equipo de desarrollo del proyecto. Existen diferentes métodos de estimación del esfuerzo, entre esos están:
 
     .row.justify-content-center.mb-5
       .col-lg-4
@@ -251,14 +251,14 @@
           .row(titulo="Modelo Composición de Aplicación")
             p Para este modelo, la fórmula que se propone es la siguiente:
             p PM = NOP / PROD donde:
-            p NOP (Nuevos Puntos Objeto): tamaño del nuevo #[i software] a desarrollar, expresado en Puntos Objeto, se calcula de la siguiente manera:
+            p NOP (Nuevos Puntos Objeto): tamaño del nuevo #[em software] a desarrollar, expresado en Puntos Objeto, se calcula de la siguiente manera:
             p NOP = OP x (100 - % reúso)/100, donde:
             p OP (Puntos Objeto): es el tamaño del software a desarrollar, representado en Puntos Objeto.
             p % reúso: porcentaje de reúso que se espera lograr en el proyecto.
             p PROD: es la productividad promedio, definida a partir del análisis de datos de proyectos.
 
           .row(titulo="Modelo Diseño Temprano")
-            p Este modelo se utiliza, como su nombre lo indica, en etapas tempranas del proyecto de #[i software], cuando se conoce muy poco del sistema a desarrollar. El mismo, emplea para su cálculo, Multiplicadores de Esfuerzo, los cuales se clasifican en categorías; estas son:
+            p Este modelo se utiliza, como su nombre lo indica, en etapas tempranas del proyecto de #[em software], cuando se conoce muy poco del sistema a desarrollar. El mismo, emplea para su cálculo, Multiplicadores de Esfuerzo, los cuales se clasifican en categorías; estas son:
             ul.lista-ul
               li 
                 i.lista-ul__vineta.color-vineta2
@@ -307,7 +307,7 @@
             ul.lista-ul--color
               li
                 i.fas.fa-circle.color-vineta
-                p Puntos Función y/o Líneas de Código Fuente para realizar la estimación del tamaño, con modificadores que contemplan el reúso, con y sin traducción automática, y el "desperdicio" (#[i breakage]).
+                p Puntos Función y/o Líneas de Código Fuente para realizar la estimación del tamaño, con modificadores que contemplan el reúso, con y sin traducción automática, y el "desperdicio" (#[em breakage]).
             ul.lista-ul--color
               li 
                 i.fas.fa-circle.color-vineta
@@ -318,12 +318,12 @@
                 | Cinco factores que establecen un exponente, según el modelo del concepto de economía de escala y deseconomía de escala.
             
           .row(titulo="COCOMO II")
-            p Cocomo II está compuesto por tres de los modelos previamente descritos: Composición de Aplicación, Diseño Temprano y Post-Arquitectura. El modelo Composición de Aplicación se usa en desarrollos de #[i software] que se encuentran en la etapa de prototipación; el modelo Diseño Temprano se utiliza en las primeras fases del desarrollo, en las cuales se estiman las alternativas de #[i hardware] y #[i software] de un proyecto; el modelo Post-Arquitectura se ejecuta en la etapa de desarrollo, después que se describe la arquitectura del sistema, y en la fase de mantenimiento.
+            p Cocomo II está compuesto por tres de los modelos previamente descritos: Composición de Aplicación, Diseño Temprano y Post-Arquitectura. El modelo Composición de Aplicación se usa en desarrollos de #[em software] que se encuentran en la etapa de prototipación; el modelo Diseño Temprano se utiliza en las primeras fases del desarrollo, en las cuales se estiman las alternativas de #[em hardware] y #[em software] de un proyecto; el modelo Post-Arquitectura se ejecuta en la etapa de desarrollo, después que se describe la arquitectura del sistema, y en la fase de mantenimiento.
           
     h2.my-5(data-aos="fade-up-right") Estimación de cronogramas (tiempo)
 
     .row.mb-5
-      p La estimación de cronogramas consiste en realizar una estimación del número de períodos de trabajo (semanas, días, horas) que serán obligatorios para completar cada actividad dentro del proyecto, siempre es necesario tener en cuenta que se deben ajustar los cronogramas a la medida que el proyecto de #[i software] se va desarrollando. Existen múltiples técnicas para la estimación de la duración de un proyecto, entre las cuales podemos resaltar las siguientes:
+      p La estimación de cronogramas consiste en realizar una estimación del número de períodos de trabajo (semanas, días, horas) que serán obligatorios para completar cada actividad dentro del proyecto, siempre es necesario tener en cuenta que se deben ajustar los cronogramas a la medida que el proyecto de #[em software] se va desarrollando. Existen múltiples técnicas para la estimación de la duración de un proyecto, entre las cuales podemos resaltar las siguientes:
 
     .row.justify-content-center.mb-5
       AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul3")
