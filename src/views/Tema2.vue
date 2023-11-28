@@ -31,7 +31,7 @@
 
           .row
             .col-lg-7
-              p Cualquier esfuerzo por estimar los tiempos, costos o recursos a largo plazo, implica estimaciones. Cuando se realizan la planificación y la gestión de proyectos, lo primero que se hace es la estimación del tamaño del #[em software], para luego calcular el esfuerzo necesario y los posibles cronogramas.
+              p Cualquier esfuerzo por estimar los tiempos, costos o recursos a largo plazo, implica estimaciones. Cuando se realiza la planificación y la gestión de proyectos, lo primero que se hace es la estimación del tamaño del #[em software], para luego calcular el esfuerzo necesario y los posibles cronogramas.
 
             .col-lg-5
               figure
